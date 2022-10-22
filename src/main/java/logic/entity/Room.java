@@ -1,11 +1,16 @@
-package main.java.logic.entity;
+package logic.entity;
+
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Getter
+@Setter
 public class Room {
-    public int number;
-    public List<Room> rooms = new ArrayList<>();
+    int number;
+    List<Room> rooms = new ArrayList<>();
 
     public Room(int no){
         number = no;

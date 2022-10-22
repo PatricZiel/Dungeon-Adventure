@@ -5,10 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Hero {
-    public String name = "Patric";
-
-    public Hero() {
-
-    }
+public class Item {
+    String name;
 }
